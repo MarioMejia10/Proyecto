@@ -1,27 +1,33 @@
 
-/**
- * @author (Mario Mejia) 
- */
 public class ClasePrincipal
 {
     public static void main (String args []){
-    
-        System.out.println("Hola, Soy programador de UTH");
-    
-        Maestro maestro = new Maestro();
         
-        maestro.setIdentidad("01072001004014");
-        maestro.setName("Mario Mejia");
-        maestro.setEdad(30);
-        maestro.setSexo("Masculino");
-        maestro.setAltura("1.80 m");
+        Futbolista futbolista = new Futbolista();
         
-        System.out.println("La identidad del maestro es: "+ maestro.getIdentidad());
-        System.out.println("El nombre del maestro es: "+ maestro.getName());
-        System.out.println("La edad del maestro es: "+ maestro.getEdad());
-        System.out.println("El sexo del maestro es: "+ maestro.getSexo());
-        System.out.println("La altura del maestro es: "+ maestro.getAltura());
+        futbolista.estableceredad(24);
+        System.out.println(futbolista.Edad());
+        
+        futbolista.establecerNombre("El nombre es: Neymar");
+        System.out.println(futbolista.ObtenerNombre());
          
+        futbolista.establecerEquipoActual("El equipo actual es: Paris Saint-Germain");
+        System.out.println(futbolista.ObtenerEquipoActual());
+        
+        Barcelona barcelona = new Barcelona();
+        Chelsea chelsea = new Chelsea();
+        Manchestercity manchestercity = new Manchestercity();
+         
+        System.out.println();
+        
+        System.out.println("Equipo:" +barcelona.getEquipo());
+        System.out.println("Capitan:" +barcelona.getCapitan());
+        
+        System.out.println("Equipo:" +chelsea.getEquipo());
+        System.out.println("Capitan:" +chelsea.getCapitan());
+        
+        System.out.println("Equipo:" +manchestercity.getEquipo());
+        System.out.println("Capitan:" +manchestercity.getCapitan());
+        
     }
-    
 }
