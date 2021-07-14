@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Maestro
+comment1.params=
+comment1.target=Maestro()
+comment10.params=edad
+comment10.target=void\ setEdad(int)
+comment11.params=sexo
+comment11.target=void\ setSexo(java.lang.String)
+comment12.params=altura
+comment12.target=void\ setAltura(java.lang.String)
+comment2.params=identidad\ name
+comment2.target=Maestro(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getIdentidad()
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=
+comment5.target=int\ getEdad()
+comment6.params=
+comment6.target=java.lang.String\ getSexo()
+comment7.params=
+comment7.target=java.lang.String\ getAltura()
+comment8.params=identidad
+comment8.target=void\ setIdentidad(java.lang.String)
+comment9.params=_name
+comment9.target=void\ setName(java.lang.String)
+numComments=13
