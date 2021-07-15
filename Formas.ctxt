@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Formas
+comment0.text=\r\n\ @author\ (Mario\ Mejia)\ \r\n
+comment1.params=Color
+comment1.target=void\ establecerColor(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ ObtenerColor()
+comment3.params=Dibujar
+comment3.target=java.lang.String\ Dibujar(java.lang.String)
+numComments=4
